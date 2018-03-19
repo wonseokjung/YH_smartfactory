@@ -1,1 +1,1 @@
-# YH_smartfactory
+# (주)연희화학 의 개발노트
