@@ -33,14 +33,20 @@ for
 
 
 python 연결
+
 ![sql](https://user-images.githubusercontent.com/11300712/40904365-816b1866-6815-11e8-92f1-c27c75dd929d.JPG)
-```
+
+````
 import pyodbc
 server ='wonseokjung.database.windows.net'
 database='wonseokjung'
 username='wonseokjung'
-password='****'
+password='Ahf12dlq'
+driver= '{ODBC Driver 13 for SQL Server}'
+cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
+cursor = cnxn.cursor()
 ```
+
 ```
 driver= '{ODBC Driver 13 for SQL Server}'
 cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
@@ -54,7 +60,6 @@ cursor = cnxn.cursor()
 
 
 ![2](https://user-images.githubusercontent.com/11300712/40948143-93e20982-68a1-11e8-9b2f-19e201825053.JPG)
-
 
 
 
