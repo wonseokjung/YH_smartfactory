@@ -36,7 +36,7 @@ python 연결
 
 ![sql](https://user-images.githubusercontent.com/11300712/40904365-816b1866-6815-11e8-92f1-c27c75dd929d.JPG)
 
-````
+```
 import pyodbc
 server ='wonseokjung.database.windows.net'
 database='wonseokjung'
