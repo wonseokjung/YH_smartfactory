@@ -48,10 +48,18 @@ python 연결
 `conn = pymssql.connect(server='yourserver.database.windows.net', user='yourusername@yourserver', password='yourpassword', database='AdventureWorks')`
 
 
+![23](https://user-images.githubusercontent.com/11300712/40948142-93b895c0-68a1-11e8-9822-cda7ed41351b.JPG)
 
-wonseokjung.database.windows.net
-user = 
-references
+
+
+![2](https://user-images.githubusercontent.com/11300712/40948143-93e20982-68a1-11e8-9b2f-19e201825053.JPG)
+
+
+
+
+---
+
+## references
 
 
 3 단계: pymssql를 사용 하 여 SQL에 연결 하는 개념 증명
