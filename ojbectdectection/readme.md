@@ -29,9 +29,11 @@ https://youtu.be/HItdecoGK3A
 ![kakaotalk_20180611_154610902](https://user-images.githubusercontent.com/11300712/41216293-b050be6e-6d8e-11e8-9d5c-5b9c94d2c6c9.jpg)
 ![kakaotalk_20180611_154605253](https://user-images.githubusercontent.com/11300712/41216299-b2a355d2-6d8e-11e8-922a-95d69ffdc939.jpg)
 
-.
-- Things to do: 
+
+#  Things to do: 
+
   - 생산하고 있는 모든 제품을 실시간으로 Object detection 할수 있는 deep neural networks 
+ 
 
 
 Example : 
