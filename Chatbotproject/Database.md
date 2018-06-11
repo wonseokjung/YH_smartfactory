@@ -41,7 +41,7 @@ import pyodbc
 server ='wonseokjung.database.windows.net'
 database='wonseokjung'
 username='wonseokjung'
-password='Ahf12dlq'
+password='**'
 driver= '{ODBC Driver 13 for SQL Server}'
 cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
@@ -64,6 +64,33 @@ cursor = cnxn.cursor()
 ![2](https://user-images.githubusercontent.com/11300712/40948143-93e20982-68a1-11e8-9b2f-19e201825053.JPG)
 
 
+
+---
+
+# Thins to do 
+
+1. 현재 ERP 와 연동   
+- 
+```
+server ='wonseokjung.database.windows.net'
+database='wonseokjung'
+username='wonseokjung'
+password='**'
+driver= '{ODBC Driver 13 for SQL Server}'
+```
+- 어떤 server를 쓰는가 ? 
+- python과 연동 가능한가? 
+ 
+
+---
+
+2. 현재 서버에 Image, PDF, GIF 등 Text가 아닌 File이 저장 및 import가 가능한가? 
+
+- 가능하다면 : 속도는 어느정도 걸릴것인가 ? 
+
+- 가능하지 않다면 : 다른 서버를 만들어야 하는 것인가 ? , 어떤 방법이 있을까? 
+
+3. 
 
 ---
 
