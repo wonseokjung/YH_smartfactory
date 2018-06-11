@@ -54,10 +54,12 @@ cursor = cnxn.cursor()
 ```
 `conn = pymssql.connect(server='yourserver.database.windows.net', user='yourusername@yourserver', password='yourpassword', database='AdventureWorks')`
 
-
+### python과 서버 연동해서 data 추출 및 삽입 실험 완료 
+ 
 ![23](https://user-images.githubusercontent.com/11300712/40948142-93b895c0-68a1-11e8-9822-cda7ed41351b.JPG)
 
 
+### Proto Type Server 구축 완료 
 
 ![2](https://user-images.githubusercontent.com/11300712/40948143-93e20982-68a1-11e8-9b2f-19e201825053.JPG)
 
