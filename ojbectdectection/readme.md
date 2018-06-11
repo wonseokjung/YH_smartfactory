@@ -19,7 +19,7 @@ https://youtu.be/HItdecoGK3A
 
 ## 1. 현재 진행상황 
 
-- Deep neural Network for Object detection 완료 
+- 1. Deep neural Network for Object detection 완료 
 
 - Proto type 연희화학에서 사출하고 있는 제품 
 
