@@ -27,7 +27,8 @@ INSERT INTO PLAYER VALUES(1)
  cursor.execute("insert into dbo.Products(ProductID,ProductName,Price) VALUES (3000, '3mm Bracket', .52)")
  
  
-# Table에 있는거 모두 뽑아보기 
+# receive all data from data table
+
 for 
 
 
