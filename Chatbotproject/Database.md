@@ -93,6 +93,13 @@ driver= '{ODBC Driver 13 for SQL Server}'
 
 3. 
 
+
+# 내외정보 
+
+conn = pymssql.connect(server='gen6.losszero.com', user='chatbot', password='chatbot!', database='LzMold_COM_yeonhee_chatbot')
+
+
+
 ---
 
 ## references
