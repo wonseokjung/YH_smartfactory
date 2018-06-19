@@ -1,6 +1,10 @@
 
+- anaconda path 잡기
 
-* ubuntu base 폴더 접근 
+export PATH=~/anaconda3/bin:$PATH
+
+
+* ubuntu base 폴더 접근하려면 아래의 경로로 들어가야한다. 
 C:\Users\%USERNAME%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\
 
 # pymssql 접속후 table create
