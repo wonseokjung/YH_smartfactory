@@ -1,6 +1,8 @@
-1. Yolo_mark 실행 
+# Obeject Detection 
 
-yolo_mark directory에서 
+# 1. Yolo_mark 실행 
+
+- yolo_mark directory에서 
 
 
 
@@ -72,17 +74,17 @@ Detect with Webcam using the weight
 
 - image 
 
-./darknet detector test data/obj.data yolo-obj.cfg backup/  yolo-obj_10000.weights data/<image file>
+./darknet detector test data/obj.data yolo-obj.cfg backup/yolo-obj_10000.weights data/<image file>
 
 - video
 
-./darknet detector demo data/obj.data yolo-obj.cfg backup/  yolo-obj_10000.weights data/<video file>
+./darknet detector demo data/obj.data yolo-obj.cfg backup/yolo-obj_10000.weights data/<video file>
 
 
 - Webcam
 
 
-./darknet detector demo data/obj.data yolo-obj.cfg backup/ yolo-obj_10000.weights data
+./darknet detector demo data/obj.data yolo-obj.cfg backup/yolo-obj_10000.weights data
 
 
 
