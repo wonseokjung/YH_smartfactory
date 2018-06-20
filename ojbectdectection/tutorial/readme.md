@@ -5,11 +5,11 @@
 - yolo_mark directory에서 
 
 
-
+```
 cmake .
 make
 ./linux_mark.sh
-
+```
 
  2. Training image 넣기
  yolo_mark/x64/Release/data/img 에서 원하는 image로 넣는다. 
