@@ -22,22 +22,31 @@ yolo_mark/x64/Release/data  경로에서
 
 `gedit obj.data` 
 
-4. class의 이름 setting 
+### 4. class의 이름 setting 
 
-```yolo_mark/x64/Release/data  -경로에서
+```
+yolo_mark/x64/Release/data  -경로에서
 
-vi obj.names```
+vi obj.names
+```
+### 5. Object 전처리 작업 
 
-5. Boxting 
+reference for Yolo mark  
+- Object 
 
+git clone https://github.com/AlexeyAB/Yolo_mark
+
+```
 yolo_mark 
 
 ./linux_mark.sh
+```
 
+# 5. Start training using the Deep learning model ( model explanation needed ) 
 
-# 5. Start traing using the Deep learning model
+ 
+## 5.1
 
-## 5.1 
 아래의 디렉토리에서 
 yolo_mark/x64/Release 
 
@@ -61,11 +70,11 @@ $$ 5 * (classes + 5 ) $$
 ## 5.3 
 
 Starting traing 
-
+```
 cd darknet
 
 ./darknet detector train data/obj.data yolo-obj.cfg darknet19_448.conv.23
-
+```
 
 ## 5.4 traing 되면서 weights 생성 및 로그 
 
